@@ -1,0 +1,127 @@
+/*COLORES*/
+.banner {
+  display: flex;
+  background-image: 'img/banner 2.jpg ';
+  height: 40vh;
+  width: 100%; }
+
+nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  width: 100%;
+  background-color: red;
+  height: 11vh;
+  text-decoration: none; }
+  nav ul {
+    text-decoration: none; }
+    nav ul li {
+      display: flex;
+      height: 7vh;
+      margin: 2px;
+      gap: 2rem;
+      width: 100%;
+      justify-content: flex-start; }
+      nav ul li a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #2a2a2a;
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+        justify-content: flex-end; }
+        nav ul li a button {
+          font-weight: 500;
+          font-weight: 16px;
+          justify-content: right; }
+
+.carousel {
+  display: flex;
+  width: 100vh;
+  height: 70vh; }
+
+main {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #2a2a2a;
+  display: flex; }
+
+.index-texto p {
+  display: flex;
+  font-size: 2rem;
+  padding: 12px;
+  color: #c5adad;
+  text-decoration: underline; }
+
+.index-texto h2 {
+  color: white;
+  background-color: #2a2a2a;
+  justify-content: center;
+  font-size: 3rem; }
+
+/* PERSONALIZACION */
+#personalizacion1, .carousel {
+  width: 70%;
+  height: 60%; }
+
+#personalizacion2, .carousel {
+  width: 70%;
+  height: 60%; }
+
+.carousel-caption {
+  color: black; }
+
+/* INFORMACION */
+.card-body {
+  height: 45vh;
+  width: 40vh; }
+
+#informacion-tabla {
+  color: white; }
+
+tr td {
+  color: white;
+  border-width: 5px; }
+
+#informacion h1 {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center; }
+
+.card-text {
+  color: black; }
+
+/*NOSOTROS*/
+#nosotros h2 {
+  display: flex;
+  color: #b85252;
+  font-size: 3rem;
+  justify-content: center;
+  text-decoration: underline; }
+
+#nosotros .p1, #nosotros .p2, #nosotros .p3 {
+  display: flex;
+  color: #a39898;
+  font-size: 1.75rem;
+  justify-content: left;
+  margin: 2px; }
+
+/* CONTACTO */
+#contacto h1 {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  width: 200vh;
+  font-size: 3.5rem;
+  color: white; }
+
+.mb-3 {
+  color: red;
+  margin: 5px; }
+
+/* FOOTER */
+footer {
+  height: 5vh;
+  justify-content: left;
+  background-color: black;
+  color: gray;
+  font-size: medium; }

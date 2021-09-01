@@ -1,0 +1,202 @@
+/* GLOBALES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1{
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+/* ANIMACIONES */
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 4s;
+}
+
+
+
+
+/* HEADER */
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-weight: 16px;
+  justify-content: right;
+}
+
+header .banner {
+  display: flex;
+  background-image: 'img/banner 2.jpg ';
+  height: 40vh;
+  width: 100%;
+}
+
+header .nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  width: 100%;
+  background-color: red;
+  height: 11vh;
+}
+
+header .nav li {
+  display: flex;
+  height: 7vh;
+  margin: 2px;
+  gap: 2rem;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+header .nav li a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: darkslategray;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
+/* INDEX */
+main{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #2a2a2a;
+  display: flex;
+}
+main .container {
+  background-color: #2a2a2a;
+  
+}
+
+.carousel{
+  display:flex;
+  width: 100vh;
+  height: 70vh;
+  }
+
+
+.index-texto p{ 
+  display: flex;
+  font-size: 2rem;
+  padding: 12px;
+  color:#c5adad;
+  text-decoration: underline;
+}  
+
+.index-texto h2{
+  color: white;
+  background-color: red;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+/* PERSONALIZACION */
+#personalizacion1, .carousel{
+  width: 70%;
+  height: 60%;
+}
+
+#personalizacion2, .carousel{
+  width: 70%;
+  height: 60%;
+}
+
+.carousel-caption{
+  color: black;
+}
+
+/* INFORMACION */
+
+
+.card-body{
+  height: 45vh;
+  width: 40vh;
+}
+
+#informacion-tabla{
+  color: white;
+}
+
+tr td {
+  color: white;
+  border-width: 5px;
+}
+
+#informacion h1{
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+
+.card-text{
+  color: black;
+}
+
+/* NOSOTROS */
+
+#nosotros h2{
+  display: flex;
+  color: rgb(184, 82, 82);
+  font-size: 3rem;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+#nosotros .p1,.p2,.p3{
+  display: flex;
+  color: rgb(163, 152, 152);
+  font-size: 1.75rem;
+  justify-content: left;
+  margin: 2px;
+}
+
+
+/* CONTACTO */
+
+#contacto h1{
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  width: 200vh;
+  font-size: 3.5rem;
+}
+
+.mb-3{
+  color:red;
+  margin: 5px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  height: 5vh;
+  justify-content: left;
+  background-color: black;
+  color: gray;
+  font-size: medium;
+}
