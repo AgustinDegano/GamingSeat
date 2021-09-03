@@ -28,11 +28,16 @@ nav {
         color: #2a2a2a;
         font-size: 2rem;
         padding: 1rem 1.5rem;
-        justify-content: flex-end; }
+        justify-content: flex-end;
+        text-decoration: none; }
         nav ul li a button {
           font-weight: 500;
           font-weight: 16px;
           justify-content: right; }
+
+a:hover {
+  color: #2a2a2a;
+  text-decoration: underline; }
 
 .carousel {
   display: flex;
@@ -125,3 +130,5 @@ footer {
   background-color: black;
   color: gray;
   font-size: medium; }
+
+/*MEDIASAQUEARIS*/
