@@ -3,7 +3,7 @@
   display: flex;
   background-image: 'img/banner 2.jpg ';
   height: 40vh;
-  width: 100%; }
+  width: 110%; }
 
 nav {
   font-family: 'Roboto Condensed', sans-serif;
@@ -34,6 +34,10 @@ nav {
           font-weight: 500;
           font-weight: 16px;
           justify-content: right; }
+
+.btn{
+    font-size: 1.5rem;
+}
 
 a:hover {
   color: #2a2a2a;
@@ -132,3 +136,45 @@ footer {
   font-size: medium; }
 
 /*MEDIASAQUEARIS*/
+
+
+@media (min-width:1000px){
+    .dropdown{
+      display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    nav, .nav {
+      display: none;
+    }
+    .dropdown{
+      background-color: #2a2a2a;
+      
+    }
+    .carousel-inner{
+      width: 50vh;
+    }
+    .index-texto h2{
+      font-size: 1.5rem;
+    }
+    .index-texto p{
+      font-size: 1rem;
+    }
+    footer{
+      height: 5vh;
+    }
+    footer p{
+      font-size: 0.75rem;
+    }
+}
+
+
+@media (max-width: 624px) {
+    .banner{
+      height: 25vh;
+    }
+    main{
+      display: block;
+    }
+}
