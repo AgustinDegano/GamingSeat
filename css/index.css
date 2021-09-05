@@ -79,6 +79,9 @@ main {
   color: black; }
 
 /* INFORMACION */
+.card{
+  width: 33rem;
+}
 .card-body {
   height: 50vh;
   width: 40vh; }
@@ -169,9 +172,12 @@ footer {
     }
     #contacto h1{
       font-size: 1.5rem;
-      display: flex;
+      display: block;
       width: 100vh;
       justify-content: center;
+    }
+    #contacto .mb-3{
+      display: block;
     }
     footer{
       height: 5vh;
@@ -179,6 +185,11 @@ footer {
     footer p{
       font-size: 0.75rem;
     }
+}
+@media(min-width: 800px) {  
+  .card{
+    display: block;
+  }
 }
 
 
