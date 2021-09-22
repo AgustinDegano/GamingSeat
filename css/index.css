@@ -129,7 +129,20 @@ tr td {
 .mb-3 {
   color: red;
   margin: 5px; }
+/*ERROR 404*/
 
+#pag404 h1{
+  font-size: 4rem;
+  width: 100vh;
+  color: red;
+  justify-content: center;
+}
+#pag404 h2{
+  font-size: 2rem;
+  display: block;
+  justify-content: center;
+  color: red
+}
 /* FOOTER */
 footer {
   height: 5vh;
